@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(20, 20, 20);
+    overflow-y: scroll;
+}
+
+/* header */
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(65, 65, 65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_text h1,h2{
+    font-weight: normal;
+    color: darkgray;
+}
+
+.header_text h2{
+    font-size: 13px;
+}
+.header_text h1{
+    font-size: 36px;
+    margin: 0 120px 0 0;
+}
+
+.header_navbar{
+    width: 500px;
+    height: 50px;
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 150px;
+}
+
+.list{
+    list-style: none;
+}
+
+.list li{
+    display: inline;
+    float: right;
+    padding: 0 8px;
+}
+
+.link{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    color: darkgray;
+}
+
+.link:hover{
+    color: purple;
+    text-shadow: 5px 5px 20px purple,
+                -5px -5px 20px purple;
+}
+
+.link:active{
+    color: rgb(71, 0, 71);
+}
+/* main section */
+/* first third */
+.first-third{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 0;
+}
+.first-third_text{
+    width: 280px;
+    height: 300px;
+    background-color: rgb(61, 61, 61);
+    margin: 0 10px 0 0;
+    padding: 15px;
+    
+}
+
+.first-third_text:hover{
+    background-color: rgb(51, 51, 51);
+    box-shadow: 5px 5px 20px purple,
+               -5px -5px 20px purple;
+}
+
+.first-third_text h2{
+    font-size: 40px;
+    color: gray;
+}
+.first-third_text p{
+    font-size: 15px;
+    margin-top: 15px;
+    color: rgb(143, 143, 143);
+}
+.first-third_text a{
+    text-decoration: none;
+    color: purple;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    
+}
+
+.first-third_link:hover{
+    text-shadow: 5px 5px 20px purple,
+                -5px -5px 20px purple;
+}
+
+.first-third_link:active{
+    color: rgb(77, 0, 77);
+}
+
+.first-third_image img{
+   width: 600px;
+   height: 300px;
+   
+}
+
+.first-third_image img:hover{
+    box-shadow: 5px 5px 20px purple,
+                -5px -5px 20px purple;
+}
+
+/* second third */
+
+.second-third{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.second-third-same-box img{
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    float: left;
+}
+
+.second-third-same-box p{
+    color: white;
+    font-size: 15px;
+    color: rgb(143, 143, 143);
+}
+
+.second-third-same-box{
+    width: 300px;
+    height: 300px;
+    margin: 0 10px 0 0;
+    padding: 15px;
+}
+.second-third-same-box:hover{
+    box-shadow: 5px 5px 20px purple,
+                -5px -5px 20px purple;
+    background-color: rgb(27, 27, 27);
+}
+
+.second-third-same-box h2{
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+
+.second-third-same-box a{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    text-decoration: none;
+    color: purple;
+}
+
+.second-third-same-box a:hover{
+    text-shadow: 5px 5px 20px purple,
+                -5px -5px 20px purple;
+}
+
+.second-third-second-third-same-box a:active{
+    color: rgb(77, 0, 77);
+}
+
+/* third third */
+
+.third-third-same-box{
+    width: 250px;
+    height: auto;
+    padding: 10px;
+}
+
+.third-third-same-box:hover{
+    box-shadow: 5px 5px 20px purple,
+                -5px -5px 20px purple;
+    background-color: rgb(27, 27, 27);
+}
+
+.third-third-same-box img{
+    width: 215px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.third-third-same-box h2{
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: darkgray;
+}
+
+.third-third-same-box p{
+    color: darkgray;
+}
+
+.third-third-same-box a{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    text-decoration: none;
+    color: purple;
+}
+
+.third-third-same-box a:hover{
+    text-shadow: 5px 5px 20px purple,
+                -5px -5px 20px purple;
+}
+
+.third-third-same-box a:active{
+    color: rgb(77, 0, 77);
+}
+
+.third-third{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* footer */
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(65, 65, 65);
+    margin-top: 50px;
+}
+
+
+
+
